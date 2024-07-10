@@ -4,3 +4,9 @@
 Link{
   margin: 0px 20px;
 }
+nav a.active{
+  text-decoration: underline;
+  background-color: rgb(126, 244, 200);
+  border-radius: 15px;
+  padding: 10px 20px;
+}

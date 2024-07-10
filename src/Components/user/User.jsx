@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 import './user.css'
 const User = ({user}) => {
@@ -12,5 +12,7 @@ const User = ({user}) => {
     </div>
   );
 };
-
+User.propTypes ={
+  user:PropTypes.object,
+}
 export default User;
